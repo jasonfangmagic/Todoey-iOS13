@@ -7,3 +7,9 @@
 # 3. Use the TableView Delegate "didSelectRowAt" to Fire the Cell When Users Tap the Cell
 <img width="473" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/a3f8f1dd-d1ef-4d18-a842-5f5643b0d5dd">
 
+# 4. Use if to check and uncheck the cell
+<img width="726" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/105d7ea9-3908-4f32-b312-a2d449c124c0">
+<img width="386" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/421e3919-391e-4ebd-a74f-015a425332c4">
+
+
+
