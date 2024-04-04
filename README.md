@@ -36,6 +36,11 @@ If it's true, then it becomes false. If it's false, then it becomes true
 Use this to replace the if else statement
 <img width="590" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/4aaec344-f5f4-4a9f-bed5-d3bccd708d6f">
 
+# 11. Use NSEncoder to Save data
+<img width="538" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/c088d9eb-b2f5-4a59-98b7-9126fad09102">
+
+
+
 
 
 
