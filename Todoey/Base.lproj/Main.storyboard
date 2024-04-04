@@ -31,7 +31,16 @@
                             <outlet property="delegate" destination="Z4k-So-H5g" id="3R3-bI-Laa"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="uqj-jh-M6R"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Todoey" id="uqj-jh-M6R">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="dYH-40-TMu">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="Z4k-So-H5g" id="BsI-Vg-QTJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="g7K-Yy-Z6p" id="adf-7D-Z0a"/>
                     </connections>
