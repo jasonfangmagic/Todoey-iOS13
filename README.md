@@ -20,10 +20,14 @@ Just like adding an pop up window
 Need to reload table view to add append new item
 <img width="804" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/1fb3d231-9dc7-406e-89d8-8fcdba4e3c7c">
 
-# 7. Save Users Data After They Terminate the App
+# 7. Use UserDefaults to Save Users Data After They Terminate the App
 Add a key and retrieve the key
 <img width="816" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/1a44751f-3bbb-4869-9755-44ec8c4df45c">
 <img width="955" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/523469f8-a8c3-46c1-a432-fa126f55de85">
+
+# 8. Use UserDefaults, You can also save other users preferences
+<img width="878" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/5c0fbfc8-473c-4453-a2b0-926760eab6e5">
+
 
 
 
