@@ -32,6 +32,11 @@ Add a key and retrieve the key
 If it's true, then it becomes false. If it's false, then it becomes true
 <img width="494" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/55e421c8-bf69-454a-b5cd-43621556dfff">
 
+# 10. Ternary Operator
+Use this to replace the if else statement
+<img width="590" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/4aaec344-f5f4-4a9f-bed5-d3bccd708d6f">
+
+
 
 
 
