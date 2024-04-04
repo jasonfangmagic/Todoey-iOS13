@@ -26,7 +26,8 @@ Add a key and retrieve the key
 <img width="955" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/523469f8-a8c3-46c1-a432-fa126f55de85">
 
 # 8. Use UserDefaults, You can also save other users preferences
-<img width="878" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/5c0fbfc8-473c-4453-a2b0-926760eab6e5">
+<img width="935" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/0599257d-4450-4f9c-9589-daf1af7016af">
+
 
 
 
