@@ -25,7 +25,7 @@ Add a key and retrieve the key
 <img width="816" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/1a44751f-3bbb-4869-9755-44ec8c4df45c">
 <img width="955" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/523469f8-a8c3-46c1-a432-fa126f55de85">
 
-# 8. Use UserDefaults, You can also save other users preferences. Only Save Small Data. It's not a Database
+# 8. Use UserDefaults, You can also save other users preferences. Only Save Small Data. It's not a Database. Only can save standard data type not custom data type
 <img width="935" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/0599257d-4450-4f9c-9589-daf1af7016af">
 
 # 9. Set the Object to the opposite of the Object
