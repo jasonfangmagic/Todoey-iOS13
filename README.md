@@ -11,5 +11,24 @@
 <img width="726" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/105d7ea9-3908-4f32-b312-a2d449c124c0">
 <img width="386" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/421e3919-391e-4ebd-a74f-015a425332c4">
 
+# 5. Add An Alert
+Just like adding an pop up window
+<img width="621" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/7a192a0d-90f7-4ff1-9ae3-1843ce086da2">
+<img width="351" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/ae9a7e9f-d2e5-4521-ac90-b10a861f3565">
+
+# 6. Add Textfield Inside of An Alert
+Need to reload table view to add append new item
+<img width="804" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/1fb3d231-9dc7-406e-89d8-8fcdba4e3c7c">
+
+# 7. Save Users Data After They Terminate the App
+Add a key and retrieve the key
+<img width="816" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/1a44751f-3bbb-4869-9755-44ec8c4df45c">
+<img width="955" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/523469f8-a8c3-46c1-a432-fa126f55de85">
+
+
+
+
+
+
 
 
