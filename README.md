@@ -48,7 +48,7 @@ Entity is Class and Attributes are Properties
 <img width="498" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/790ef560-cb29-42bf-9ae0-2a1b7e3c49d5">
 
 # 14. NSPredicate 
-Used in the search bar
+Used in the search bar to search strings in coredata or realm
 https://academy.realm.io/posts/nspredicate-cheatsheet/
 <img width="928" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/445af45b-4a59-46a1-9887-6035deb5f944">
 
