@@ -42,6 +42,12 @@ Use this to replace the if else statement
 # 12. Database Types
 <img width="785" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/21e71711-1557-4b19-82a3-dc7e1e74c4b2">
 
+# 13. CoreData Similar to Class
+Entity is Class and Attributes are Properties
+<img width="324" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/61b27420-8071-4294-86dd-bc74e5bac176">
+<img width="498" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/790ef560-cb29-42bf-9ae0-2a1b7e3c49d5">
+
+
 
 
 
