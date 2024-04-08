@@ -25,8 +25,46 @@ Add a key and retrieve the key
 <img width="816" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/1a44751f-3bbb-4869-9755-44ec8c4df45c">
 <img width="955" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/523469f8-a8c3-46c1-a432-fa126f55de85">
 
-# 8. Use UserDefaults, You can also save other users preferences. Only Save Small Data. It's not a Database
+# 8. Use UserDefaults, You can also save other users preferences. Only Save Small Data. It's not a Database. Only can save standard data type not custom data type
 <img width="935" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/0599257d-4450-4f9c-9589-daf1af7016af">
+
+# 9. Set the Object to the opposite of the Object
+If it's true, then it becomes false. If it's false, then it becomes true
+<img width="494" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/55e421c8-bf69-454a-b5cd-43621556dfff">
+
+# 10. Ternary Operator
+Use this to replace the if else statement
+<img width="590" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/4aaec344-f5f4-4a9f-bed5-d3bccd708d6f">
+
+# 11. Use NSEncoder to Save data
+<img width="538" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/c088d9eb-b2f5-4a59-98b7-9126fad09102">
+
+# 12. Database Types
+<img width="785" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/21e71711-1557-4b19-82a3-dc7e1e74c4b2">
+
+# 13. CoreData Similar to Class
+Entity is Class and Attributes are Properties
+<img width="324" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/61b27420-8071-4294-86dd-bc74e5bac176">
+<img width="498" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/790ef560-cb29-42bf-9ae0-2a1b7e3c49d5">
+
+# 14. NSPredicate 
+Used in the search bar to search strings in coredata or realm
+https://academy.realm.io/posts/nspredicate-cheatsheet/
+<img width="928" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/445af45b-4a59-46a1-9887-6035deb5f944">
+
+# 15. with request. External Parameter names and Internal Parameter Names
+<img width="570" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/9479458d-e6dd-41ad-a28b-ff3470307c0b">
+<img width="471" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/261279bf-c42a-405e-99ae-cd6ceccc641e">
+
+
+
+
+
+
+
+
+
+
 
 
 
