@@ -52,6 +52,12 @@ Used in the search bar to search strings in coredata or realm
 https://academy.realm.io/posts/nspredicate-cheatsheet/
 <img width="928" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/445af45b-4a59-46a1-9887-6035deb5f944">
 
+# 15. with request. External Parameter names and Internal Parameter Names
+<img width="570" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/9479458d-e6dd-41ad-a28b-ff3470307c0b">
+<img width="471" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/261279bf-c42a-405e-99ae-cd6ceccc641e">
+
+
+
 
 
 
