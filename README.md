@@ -57,7 +57,8 @@ https://academy.realm.io/posts/nspredicate-cheatsheet/
 <img width="471" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/261279bf-c42a-405e-99ae-cd6ceccc641e">
 
 # 16. Need to Create These Two Methods When Creating a New TableView
-<img width="1074" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/68c04e4d-4975-47ab-ac4e-096113f31657">
+<img width="1061" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/735d72d4-6924-43e8-a1de-b1873a6acd4f">
+
 
 
 
