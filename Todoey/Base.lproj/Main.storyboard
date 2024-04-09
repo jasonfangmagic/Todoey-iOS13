@@ -8,6 +8,38 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="Naq-Xk-7ER">
+            <objects>
+                <tableViewController id="2t0-Nb-vlo" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="dfA-OJ-bnY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="S4R-uA-Z5L">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S4R-uA-Z5L" id="P5P-y6-AR2">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2t0-Nb-vlo" id="KyK-yq-c1V"/>
+                            <outlet property="delegate" destination="2t0-Nb-vlo" id="Bic-vz-MKv"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="heH-tc-DLS"/>
+                    <connections>
+                        <segue destination="Z4k-So-H5g" kind="show" identifier="goToItems" id="CII-Ar-zQc"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Owv-0g-jYm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1068" y="13"/>
+        </scene>
         <!--Todoey-->
         <scene sceneID="pyW-tY-VZ5">
             <objects>
@@ -55,7 +87,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oMO-Hr-3lL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1741.2213740458014" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1857" y="13"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4tv-G8-l7C">
@@ -75,12 +107,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Z4k-So-H5g" kind="relationship" relationship="rootViewController" id="UsI-tj-FV1"/>
+                        <segue destination="2t0-Nb-vlo" kind="relationship" relationship="rootViewController" id="5Kd-cs-mDh"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ubL-CU-PFF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="814.50381679389307" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="378" y="13"/>
         </scene>
     </scenes>
     <resources>
