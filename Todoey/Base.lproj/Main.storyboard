@@ -8,16 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Todoey-->
         <scene sceneID="Naq-Xk-7ER">
             <objects>
-                <tableViewController id="2t0-Nb-vlo" sceneMemberID="viewController">
+                <tableViewController id="2t0-Nb-vlo" customClass="CategoryViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="dfA-OJ-bnY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="S4R-uA-Z5L">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="S4R-uA-Z5L">
                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S4R-uA-Z5L" id="P5P-y6-AR2">
@@ -31,7 +31,14 @@
                             <outlet property="delegate" destination="2t0-Nb-vlo" id="Bic-vz-MKv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="heH-tc-DLS"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="heH-tc-DLS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="u6X-Tf-pUm">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="2t0-Nb-vlo" id="pcm-2w-lni"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="Z4k-So-H5g" kind="show" identifier="goToItems" id="CII-Ar-zQc"/>
                     </connections>
@@ -40,7 +47,7 @@
             </objects>
             <point key="canvasLocation" x="1068" y="13"/>
         </scene>
-        <!--Todoey-->
+        <!--Items-->
         <scene sceneID="pyW-tY-VZ5">
             <objects>
                 <tableViewController id="Z4k-So-H5g" customClass="TodoListViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
@@ -72,7 +79,7 @@
                         </connections>
                     </tableView>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Todoey" id="uqj-jh-M6R">
+                    <navigationItem key="navigationItem" title="Items" id="uqj-jh-M6R">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="dYH-40-TMu">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
