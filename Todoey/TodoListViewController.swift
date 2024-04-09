@@ -20,14 +20,13 @@ class TodoListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-                    
       loadItems()
-
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return itemArray.count
     }
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -47,13 +46,8 @@ class TodoListViewController: UITableViewController {
         
         tableView.reloadData()
         
-        
         return cell
     }
-    
-
-    
- 
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -66,6 +60,8 @@ class TodoListViewController: UITableViewController {
         
         tableView.deselectRow(at: indexPath, animated: true)
     }
+    
+    
 
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         
@@ -101,29 +97,21 @@ class TodoListViewController: UITableViewController {
     func saveItems(){
    
         do{
-            
             try context.save()
             
         } catch{
            print("error")
         }
-        
-        
         self.tableView.reloadData()
     }
     
     func loadItems(with request: NSFetchRequest<Item> = Item.fetchRequest()) {
-//        let request : NSFetchRequest<Item> = Item.fetchRequest()
-        
         do {
             itemArray = try context.fetch(request)
         } catch {
             print("error")
         }
     }
-    
-    
-   
     
 }
 
