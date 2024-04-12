@@ -59,6 +59,13 @@ https://academy.realm.io/posts/nspredicate-cheatsheet/
 # 16. Need to Create These Two Methods When Creating a New TableView
 <img width="1061" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/735d72d4-6924-43e8-a1de-b1873a6acd4f">
 
+# 17. Property 'Category.color' has been added., Error Code=10. When you add a new property in realm. Delete the app first in the simulator and rerun the app
+<img width="590" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/055de8ed-899b-4bb0-a366-dffb89b74bea">
+<img width="371" alt="image" src="https://github.com/jasonfangmagic/Todoey-iOS13/assets/87825019/cec0485a-2316-4e57-bc05-c7b9196529aa">
+
+
+
+
 
 
 
